@@ -1,0 +1,12 @@
+2025-04-24 15:23:51,861 :: 70 :: INFO :: Starting preprocessing for text: I love this product!...
+2025-04-24 15:23:51,861 :: 74 :: DEBUG :: Detected language: en
+2025-04-24 15:23:51,861 :: 39 :: DEBUG :: Cleaning text
+2025-04-24 15:23:51,866 :: 81 :: DEBUG :: Preprocessed text: love product...
+2025-04-24 15:23:51,866 :: 18 :: DEBUG :: Starting prediction for text: love product...
+2025-04-24 15:23:51,867 :: 47 :: DEBUG :: Input DataFrame constructed
+2025-04-24 15:23:51,873 :: 48 :: DEBUG :: DataFrame preview:
+      segmented lang  token_len  ...  url_num  hash_num  mention_num
+0  love product   en          2  ...        0         0            0
+
+[1 rows x 10 columns]
+2025-04-24 15:23:51,879 :: 65 :: INFO :: Prediction successful: {'sentiment': 'positive', 'confidence': 0.9703}
